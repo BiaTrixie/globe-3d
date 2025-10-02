@@ -1,0 +1,908 @@
+{
+  "success": true,
+  "message": "Marcadores do globo carregados com sucesso",
+  "timestamp": "2024-01-15T10:30:00Z",
+  "data": {
+    "markers": [
+      {
+        "id": "1",
+        "name": "Belo Horizonte",
+        "country": "Brasil",
+        "coordinates": {
+          "lat": -19.885592,
+          "lng": -43.951191
+        },
+        "connections": [
+          {
+            "id": "1-1",
+            "target": "Rio de Janeiro",
+            "targetCoordinates": {
+              "lat": -22.9068,
+              "lng": -43.1729
+            },
+            "arcAlt": 0.1,
+            "color": "#A6FA45",
+            "order": 1,
+            "description": "Conexão entre as duas principais cidades do Brasil"
+          },
+          {
+            "id": "1-2",
+            "target": "Nairobi",
+            "targetCoordinates": {
+              "lat": -1.303396,
+              "lng": 36.852443
+            },
+            "arcAlt": 0.5,
+            "color": "#A6FA45",
+            "order": 1,
+            "description": "Conexão internacional para África"
+          }
+        ],
+        "type": "city",
+        "population": 2530701,
+        "region": "Sudeste"
+      },
+      {
+        "id": "2",
+        "name": "Nova Delhi",
+        "country": "Índia",
+        "coordinates": {
+          "lat": 28.6139,
+          "lng": 77.209
+        },
+        "connections": [
+          {
+            "id": "2-1",
+            "target": "Kuala Lumpur",
+            "targetCoordinates": {
+              "lat": 3.139,
+              "lng": 101.6869
+            },
+            "arcAlt": 0.2,
+            "color": "#A6FA45",
+            "order": 1,
+            "description": "Conexão para o Sudeste Asiático"
+          }
+        ],
+        "type": "capital",
+        "population": 32941000,
+        "region": "Ásia"
+      },
+      {
+        "id": "3",
+        "name": "Singapura",
+        "country": "Singapura",
+        "coordinates": {
+          "lat": 1.3521,
+          "lng": 103.8198
+        },
+        "connections": [
+          {
+            "id": "3-1",
+            "target": "Tóquio",
+            "targetCoordinates": {
+              "lat": 35.6762,
+              "lng": 139.6503
+            },
+            "arcAlt": 0.2,
+            "color": "#A6FA45",
+            "order": 2,
+            "description": "Conexão para o Japão"
+          },
+          {
+            "id": "3-2",
+            "target": "Sydney",
+            "targetCoordinates": {
+              "lat": -33.8688,
+              "lng": 151.2093
+            },
+            "arcAlt": 0.2,
+            "color": "#A6FA45",
+            "order": 5,
+            "description": "Conexão para a Austrália"
+          },
+          {
+            "id": "3-3",
+            "target": "Nova York",
+            "targetCoordinates": {
+              "lat": 40.7128,
+              "lng": -74.006
+            },
+            "arcAlt": 0.5,
+            "color": "#A6FA45",
+            "order": 8,
+            "description": "Conexão transcontinental"
+          }
+        ],
+        "type": "city-state",
+        "population": 5454000,
+        "region": "Sudeste Asiático"
+      },
+      {
+        "id": "4",
+        "name": "Londres",
+        "country": "Reino Unido",
+        "coordinates": {
+          "lat": 51.5072,
+          "lng": -0.1276
+        },
+        "connections": [
+          {
+            "id": "4-1",
+            "target": "Kuala Lumpur",
+            "targetCoordinates": {
+              "lat": 3.139,
+              "lng": 101.6869
+            },
+            "arcAlt": 0.3,
+            "color": "#A6FA45",
+            "order": 2,
+            "description": "Conexão histórica com a Malásia"
+          },
+          {
+            "id": "4-2",
+            "target": "Paris",
+            "targetCoordinates": {
+              "lat": 48.8566,
+              "lng": -2.3522
+            },
+            "arcAlt": 0.1,
+            "color": "#A6FA45",
+            "order": 4,
+            "description": "Conexão europeia próxima"
+          },
+          {
+            "id": "4-3",
+            "target": "Los Angeles",
+            "targetCoordinates": {
+              "lat": 34.0522,
+              "lng": -118.2437
+            },
+            "arcAlt": 0.2,
+            "color": "#A6FA45",
+            "order": 9,
+            "description": "Conexão transatlântica"
+          }
+        ],
+        "type": "capital",
+        "population": 8982000,
+        "region": "Europa"
+      },
+      {
+        "id": "5",
+        "name": "Brasília",
+        "country": "Brasil",
+        "coordinates": {
+          "lat": -15.785493,
+          "lng": -47.909029
+        },
+        "connections": [
+          {
+            "id": "5-1",
+            "target": "Las Vegas",
+            "targetCoordinates": {
+              "lat": 36.162809,
+              "lng": -115.119411
+            },
+            "arcAlt": 0.3,
+            "color": "#A6FA45",
+            "order": 2,
+            "description": "Conexão para os Estados Unidos"
+          }
+        ],
+        "type": "capital",
+        "population": 3094325,
+        "region": "Centro-Oeste"
+      },
+      {
+        "id": "6",
+        "name": "Sydney",
+        "country": "Austrália",
+        "coordinates": {
+          "lat": -33.8688,
+          "lng": 151.2093
+        },
+        "connections": [
+          {
+            "id": "6-1",
+            "target": "Hong Kong",
+            "targetCoordinates": {
+              "lat": 22.3193,
+              "lng": 114.1694
+            },
+            "arcAlt": 0.3,
+            "color": "#A6FA45",
+            "order": 3,
+            "description": "Conexão para a Ásia"
+          }
+        ],
+        "type": "city",
+        "population": 5312000,
+        "region": "Oceania"
+      },
+      {
+        "id": "7",
+        "name": "Honolulu",
+        "country": "Estados Unidos",
+        "coordinates": {
+          "lat": 21.3099,
+          "lng": -157.8581
+        },
+        "connections": [
+          {
+            "id": "7-1",
+            "target": "Nova York",
+            "targetCoordinates": {
+              "lat": 40.7128,
+              "lng": -74.006
+            },
+            "arcAlt": 0.3,
+            "color": "#A6FA45",
+            "order": 3,
+            "description": "Conexão doméstica americana"
+          }
+        ],
+        "type": "city",
+        "population": 350964,
+        "region": "Pacífico"
+      },
+      {
+        "id": "8",
+        "name": "Jacarta",
+        "country": "Indonésia",
+        "coordinates": {
+          "lat": -6.2088,
+          "lng": 106.8456
+        },
+        "connections": [
+          {
+            "id": "8-1",
+            "target": "Londres",
+            "targetCoordinates": {
+              "lat": 51.5072,
+              "lng": -0.1276
+            },
+            "arcAlt": 0.3,
+            "color": "#A6FA45",
+            "order": 3,
+            "description": "Conexão para a Europa"
+          },
+          {
+            "id": "8-2",
+            "target": "Nova York",
+            "targetCoordinates": {
+              "lat": 40.7128,
+              "lng": -74.006
+            },
+            "arcAlt": 0.5,
+            "color": "#A6FA45",
+            "order": 8,
+            "description": "Conexão para a América do Norte"
+          }
+        ],
+        "type": "capital",
+        "population": 10560000,
+        "region": "Sudeste Asiático"
+      },
+      {
+        "id": "9",
+        "name": "Kano",
+        "country": "Nigéria",
+        "coordinates": {
+          "lat": 11.986597,
+          "lng": 8.571831
+        },
+        "connections": [
+          {
+            "id": "9-1",
+            "target": "Cuiabá",
+            "targetCoordinates": {
+              "lat": -15.595412,
+              "lng": -56.05918
+            },
+            "arcAlt": 0.5,
+            "color": "#A6FA45",
+            "order": 4,
+            "description": "Conexão África-Brasil"
+          }
+        ],
+        "type": "city",
+        "population": 2828000,
+        "region": "África"
+      },
+      {
+        "id": "10",
+        "name": "Buenos Aires",
+        "country": "Argentina",
+        "coordinates": {
+          "lat": -34.6037,
+          "lng": -58.3816
+        },
+        "connections": [
+          {
+            "id": "10-1",
+            "target": "Hong Kong",
+            "targetCoordinates": {
+              "lat": 22.3193,
+              "lng": 114.1694
+            },
+            "arcAlt": 0.7,
+            "color": "#A6FA45",
+            "order": 4,
+            "description": "Conexão para a Ásia"
+          }
+        ],
+        "type": "capital",
+        "population": 15594400,
+        "region": "América do Sul"
+      },
+      {
+        "id": "11",
+        "name": "Paris",
+        "country": "França",
+        "coordinates": {
+          "lat": 48.8566,
+          "lng": -2.3522
+        },
+        "connections": [
+          {
+            "id": "11-1",
+            "target": "Berlim",
+            "targetCoordinates": {
+              "lat": 52.52,
+              "lng": 13.405
+            },
+            "arcAlt": 0.1,
+            "color": "#A6FA45",
+            "order": 7,
+            "description": "Conexão europeia"
+          }
+        ],
+        "type": "capital",
+        "population": 11017000,
+        "region": "Europa"
+      },
+      {
+        "id": "12",
+        "name": "Manila",
+        "country": "Filipinas",
+        "coordinates": {
+          "lat": 14.5995,
+          "lng": 120.9842
+        },
+        "connections": [
+          {
+            "id": "12-1",
+            "target": "Londres",
+            "targetCoordinates": {
+              "lat": 51.5072,
+              "lng": -0.1276
+            },
+            "arcAlt": 0.3,
+            "color": "#A6FA45",
+            "order": 5,
+            "description": "Conexão histórica com o Reino Unido"
+          }
+        ],
+        "type": "capital",
+        "population": 13484000,
+        "region": "Sudeste Asiático"
+      },
+      {
+        "id": "13",
+        "name": "Los Angeles",
+        "country": "Estados Unidos",
+        "coordinates": {
+          "lat": 34.0522,
+          "lng": -118.2437
+        },
+        "connections": [
+          {
+            "id": "13-1",
+            "target": "Paris",
+            "targetCoordinates": {
+              "lat": 48.8566,
+              "lng": -2.3522
+            },
+            "arcAlt": 0.2,
+            "color": "#A6FA45",
+            "order": 5,
+            "description": "Conexão transatlântica"
+          },
+          {
+            "id": "13-2",
+            "target": "Berlim",
+            "targetCoordinates": {
+              "lat": 52.52,
+              "lng": 13.405
+            },
+            "arcAlt": 0.2,
+            "color": "#A6FA45",
+            "order": 7,
+            "description": "Conexão para a Alemanha"
+          },
+          {
+            "id": "13-3",
+            "target": "São Francisco",
+            "targetCoordinates": {
+              "lat": 37.7749,
+              "lng": -122.4194
+            },
+            "arcAlt": 0.1,
+            "color": "#A6FA45",
+            "order": 12,
+            "description": "Conexão doméstica californiana"
+          }
+        ],
+        "type": "city",
+        "population": 3971883,
+        "region": "América do Norte"
+      },
+      {
+        "id": "14",
+        "name": "Lusaka",
+        "country": "Zâmbia",
+        "coordinates": {
+          "lat": -15.432563,
+          "lng": 28.315853
+        },
+        "connections": [
+          {
+            "id": "14-1",
+            "target": "Manaus",
+            "targetCoordinates": {
+              "lat": 1.094136,
+              "lng": -63.34546
+            },
+            "arcAlt": 0.7,
+            "color": "#A6FA45",
+            "order": 6,
+            "description": "Conexão África-América do Sul"
+          }
+        ],
+        "type": "capital",
+        "population": 2468000,
+        "region": "África"
+      },
+      {
+        "id": "15",
+        "name": "Seul",
+        "country": "Coreia do Sul",
+        "coordinates": {
+          "lat": 37.5665,
+          "lng": 126.978
+        },
+        "connections": [
+          {
+            "id": "15-1",
+            "target": "Tóquio",
+            "targetCoordinates": {
+              "lat": 35.6762,
+              "lng": 139.6503
+            },
+            "arcAlt": 0.1,
+            "color": "#A6FA45",
+            "order": 6,
+            "description": "Conexão asiática próxima"
+          }
+        ],
+        "type": "capital",
+        "population": 9720846,
+        "region": "Ásia"
+      },
+      {
+        "id": "16",
+        "name": "Hong Kong",
+        "country": "China",
+        "coordinates": {
+          "lat": 22.3193,
+          "lng": 114.1694
+        },
+        "connections": [
+          {
+            "id": "16-1",
+            "target": "Londres",
+            "targetCoordinates": {
+              "lat": 51.5072,
+              "lng": -0.1276
+            },
+            "arcAlt": 0.3,
+            "color": "#A6FA45",
+            "order": 6,
+            "description": "Conexão histórica com o Reino Unido"
+          },
+          {
+            "id": "16-2",
+            "target": "Rio de Janeiro",
+            "targetCoordinates": {
+              "lat": -22.9068,
+              "lng": -43.1729
+            },
+            "arcAlt": 0.7,
+            "color": "#A6FA45",
+            "order": 9,
+            "description": "Conexão para o Brasil"
+          },
+          {
+            "id": "16-3",
+            "target": "Tóquio",
+            "targetCoordinates": {
+              "lat": 35.6762,
+              "lng": 139.6503
+            },
+            "arcAlt": 0.2,
+            "color": "#A6FA45",
+            "order": 12,
+            "description": "Conexão asiática"
+          }
+        ],
+        "type": "city",
+        "population": 7500700,
+        "region": "Ásia"
+      },
+      {
+        "id": "17",
+        "name": "Cuiabá",
+        "country": "Brasil",
+        "coordinates": {
+          "lat": -15.595412,
+          "lng": -56.05918
+        },
+        "connections": [
+          {
+            "id": "17-1",
+            "target": "Belo Horizonte",
+            "targetCoordinates": {
+              "lat": -19.885592,
+              "lng": -43.951191
+            },
+            "arcAlt": 0.1,
+            "color": "#A6FA45",
+            "order": 7,
+            "description": "Conexão doméstica brasileira"
+          }
+        ],
+        "type": "city",
+        "population": 650912,
+        "region": "Centro-Oeste"
+      },
+      {
+        "id": "18",
+        "name": "Berlim",
+        "country": "Alemanha",
+        "coordinates": {
+          "lat": 52.52,
+          "lng": 13.405
+        },
+        "connections": [
+          {
+            "id": "18-1",
+            "target": "Los Angeles",
+            "targetCoordinates": {
+              "lat": 34.0522,
+              "lng": -118.2437
+            },
+            "arcAlt": 0.2,
+            "color": "#A6FA45",
+            "order": 7,
+            "description": "Conexão transatlântica"
+          },
+          {
+            "id": "18-2",
+            "target": "Hong Kong",
+            "targetCoordinates": {
+              "lat": 22.3193,
+              "lng": 114.1694
+            },
+            "arcAlt": 0.3,
+            "color": "#A6FA45",
+            "order": 13,
+            "description": "Conexão para a Ásia"
+          }
+        ],
+        "type": "capital",
+        "population": 3669491,
+        "region": "Europa"
+      },
+      {
+        "id": "19",
+        "name": "Luanda",
+        "country": "Angola",
+        "coordinates": {
+          "lat": -8.833221,
+          "lng": 13.264837
+        },
+        "connections": [
+          {
+            "id": "19-1",
+            "target": "Cidade do Cabo",
+            "targetCoordinates": {
+              "lat": -33.936138,
+              "lng": 18.436529
+            },
+            "arcAlt": 0.2,
+            "color": "#A6FA45",
+            "order": 8,
+            "description": "Conexão africana"
+          }
+        ],
+        "type": "capital",
+        "population": 2585000,
+        "region": "África"
+      },
+      {
+        "id": "20",
+        "name": "Vancouver",
+        "country": "Canadá",
+        "coordinates": {
+          "lat": 49.2827,
+          "lng": -123.1207
+        },
+        "connections": [
+          {
+            "id": "20-1",
+            "target": "Amsterdã",
+            "targetCoordinates": {
+              "lat": 52.3676,
+              "lng": 4.9041
+            },
+            "arcAlt": 0.2,
+            "color": "#A6FA45",
+            "order": 8,
+            "description": "Conexão transatlântica"
+          }
+        ],
+        "type": "city",
+        "population": 675218,
+        "region": "América do Norte"
+      },
+      {
+        "id": "21",
+        "name": "Nova York",
+        "country": "Estados Unidos",
+        "coordinates": {
+          "lat": 40.7128,
+          "lng": -74.006
+        },
+        "connections": [
+          {
+            "id": "21-1",
+            "target": "Shanghai",
+            "targetCoordinates": {
+              "lat": 31.2304,
+              "lng": 121.4737
+            },
+            "arcAlt": 0.3,
+            "color": "#A6FA45",
+            "order": 10,
+            "description": "Conexão para a China"
+          }
+        ],
+        "type": "city",
+        "population": 8336817,
+        "region": "América do Norte"
+      },
+      {
+        "id": "22",
+        "name": "Roma",
+        "country": "Itália",
+        "coordinates": {
+          "lat": 41.9028,
+          "lng": 12.4964
+        },
+        "connections": [
+          {
+            "id": "22-1",
+            "target": "Los Angeles",
+            "targetCoordinates": {
+              "lat": 34.0522,
+              "lng": -118.2437
+            },
+            "arcAlt": 0.2,
+            "color": "#A6FA45",
+            "order": 11,
+            "description": "Conexão transatlântica"
+          }
+        ],
+        "type": "capital",
+        "population": 2873000,
+        "region": "Europa"
+      },
+      {
+        "id": "23",
+        "name": "Shanghai",
+        "country": "China",
+        "coordinates": {
+          "lat": 31.2304,
+          "lng": 121.4737
+        },
+        "connections": [
+          {
+            "id": "23-1",
+            "target": "Amsterdã",
+            "targetCoordinates": {
+              "lat": 52.3676,
+              "lng": 4.9041
+            },
+            "arcAlt": 0.3,
+            "color": "#A6FA45",
+            "order": 10,
+            "description": "Conexão para a Europa"
+          }
+        ],
+        "type": "city",
+        "population": 24870895,
+        "region": "Ásia"
+      },
+      {
+        "id": "24",
+        "name": "São Francisco",
+        "country": "Estados Unidos",
+        "coordinates": {
+          "lat": 37.7749,
+          "lng": -122.4194
+        },
+        "connections": [],
+        "type": "city",
+        "population": 873965,
+        "region": "América do Norte"
+      },
+      {
+        "id": "25",
+        "name": "Tóquio",
+        "country": "Japão",
+        "coordinates": {
+          "lat": 35.6762,
+          "lng": 139.6503
+        },
+        "connections": [
+          {
+            "id": "25-1",
+            "target": "Hong Kong",
+            "targetCoordinates": {
+              "lat": 22.3193,
+              "lng": 114.1694
+            },
+            "arcAlt": 0.2,
+            "color": "#A6FA45",
+            "order": 12,
+            "description": "Conexão asiática"
+          }
+        ],
+        "type": "capital",
+        "population": 13929286,
+        "region": "Ásia"
+      },
+      {
+        "id": "26",
+        "name": "Manaus",
+        "country": "Brasil",
+        "coordinates": {
+          "lat": 1.094136,
+          "lng": -63.34546
+        },
+        "connections": [],
+        "type": "city",
+        "population": 2255903,
+        "region": "Norte"
+      },
+      {
+        "id": "27",
+        "name": "Cidade do Cabo",
+        "country": "África do Sul",
+        "coordinates": {
+          "lat": -33.936138,
+          "lng": 18.436529
+        },
+        "connections": [
+          {
+            "id": "27-1",
+            "target": "Riyadh",
+            "targetCoordinates": {
+              "lat": 21.395643,
+              "lng": 39.883798
+            },
+            "arcAlt": 0.3,
+            "color": "#A6FA45",
+            "order": 14,
+            "description": "Conexão para o Oriente Médio"
+          }
+        ],
+        "type": "city",
+        "population": 4618000,
+        "region": "África"
+      },
+      {
+        "id": "28",
+        "name": "Amsterdã",
+        "country": "Holanda",
+        "coordinates": {
+          "lat": 52.3676,
+          "lng": 4.9041
+        },
+        "connections": [],
+        "type": "capital",
+        "population": 873555,
+        "region": "Europa"
+      },
+      {
+        "id": "29",
+        "name": "Riyadh",
+        "country": "Arábia Saudita",
+        "coordinates": {
+          "lat": 21.395643,
+          "lng": 39.883798
+        },
+        "connections": [],
+        "type": "capital",
+        "population": 7676654,
+        "region": "Oriente Médio"
+      },
+      {
+        "id": "30",
+        "name": "Rio de Janeiro",
+        "country": "Brasil",
+        "coordinates": {
+          "lat": -22.9068,
+          "lng": -43.1729
+        },
+        "connections": [
+          {
+            "id": "30-1",
+            "target": "Nova Delhi",
+            "targetCoordinates": {
+              "lat": 28.6139,
+              "lng": 77.209
+            },
+            "arcAlt": 0.7,
+            "color": "#A6FA45",
+            "order": 10,
+            "description": "Conexão para a Índia"
+          },
+          {
+            "id": "30-2",
+            "target": "Buenos Aires",
+            "targetCoordinates": {
+              "lat": -34.6037,
+              "lng": -58.3816
+            },
+            "arcAlt": 0.1,
+            "color": "#A6FA45",
+            "order": 13,
+            "description": "Conexão sul-americana"
+          }
+        ],
+        "type": "city",
+        "population": 6747815,
+        "region": "Sudeste"
+      }
+    ],
+    "statistics": {
+      "totalMarkers": 30,
+      "totalConnections": 45,
+      "regions": {
+        "América do Sul": 4,
+        "América do Norte": 4,
+        "Europa": 5,
+        "Ásia": 8,
+        "África": 4,
+        "Oceania": 1,
+        "Pacífico": 1,
+        "Oriente Médio": 1,
+        "Sudeste Asiático": 2
+      },
+      "types": {
+        "capital": 12,
+        "city": 15,
+        "city-state": 1,
+        "other": 2
+      }
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "lastUpdated": "2024-01-15T10:30:00Z",
+      "source": "Globe 3D Visualization API",
+      "description": "Dados de marcadores globais com conexões geográficas para visualização em globo 3D"
+    }
+  }
+}
